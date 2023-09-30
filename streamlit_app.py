@@ -2,7 +2,7 @@ import streamlit as st
 import random
 import time
 
-st.title("Simple chat")
+st.title("Moveworks ChatBot")
 
 # Initialize chat history
 if "messages" not in st.session_state:
@@ -30,7 +30,13 @@ if prompt := st.chat_input("What is up?"):
                 "Hello there! How can I assist you today?",
                 "Hi, human! Is there anything I can help you with?",
                 "Do you need help?",
+                
             ]
+        """ NOTE
+         - how is the 
+            
+            
+        """
         )
         # Simulate stream of response with milliseconds delay
         for chunk in assistant_response.split():
