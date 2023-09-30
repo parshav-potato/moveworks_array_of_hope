@@ -32,11 +32,7 @@ if prompt := st.chat_input("What is up?"):
                 "Do you need help?",
                 
             ]
-        """ NOTE
-         - how is the 
-            
-            
-        """
+        
         )
         # Simulate stream of response with milliseconds delay
         for chunk in assistant_response.split():
